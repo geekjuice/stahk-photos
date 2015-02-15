@@ -1,12 +1,12 @@
 ###
-Startup Stock Photos API
+Life of Pix API
 ###
 
 baseAPI = require('./baseAPI')
 
-SOURCE = 'Startup Stock Photos'
-URL = 'http://startupstockphotos.com/'
-SELECTOR = '.media img'
+SOURCE = 'Life of Pix'
+URL = 'http://lifeofpix.com/'
+SELECTOR = '.portfolio-item img'
 QUERY = ($img) -> $img.attr('src')
 
 # Export API

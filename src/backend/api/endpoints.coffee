@@ -12,4 +12,5 @@ module.exports = [
   'jaymantri'
   'picography'
   'startupstockphotos'
+  'lifeofpix'
 ]
