@@ -1,0 +1,14 @@
+###
+Endpoints
+###
+
+module.exports = [
+  'unsplash'
+  'gratisography'
+  'littlevisuals'
+  'newoldstock'
+  'picjumbo'
+  'getrefe'
+  'jaymantri'
+  'picography'
+]

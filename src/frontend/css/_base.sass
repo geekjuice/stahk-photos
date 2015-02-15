@@ -1,0 +1,27 @@
+@import _reset
+@import _flat
+@import _font
+
+@import compass/css3/box-sizing
+@import compass/css3/transition
+
+*
+  +box-sizing(border-box)
+
+#StahkPhotos-Env
+  +latofont(100)
+  position: fixed
+  bottom: 0
+  left: 0
+  padding: 0.6em 1.2em
+  background-color: black
+  color: white
+  font-variant: small-caps
+  opacity: 0.6
+  cursor: default
+  font-size: 1.2em
+  z-index: 9999
+  +transition(opacity 600ms)
+
+  &:hover
+    opacity: 1

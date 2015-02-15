@@ -1,0 +1,94 @@
+@import base
+@import code
+
+$gray: #333
+
+body
+  +latofont(100)
+  position: relative
+  background-color: white
+  width: 100%
+  font-size: 1.2em
+  padding: 2em 0
+  margin: 0
+  text-align: center
+  opacity: 0
+  +transition(opacity 600ms ease-in-out)
+
+  &.loaded
+    opacity: 1
+
+a
+  color: $gray
+  text-decoration: none
+  border-bottom: 1px solid $gray
+  padding: 0.1em 0.2em
+  +transition(background 600ms, color 600ms)
+
+  &:hover
+    background: $gray
+    color: white
+
+p
+  padding: 0
+
+  @media (max-width: 40em)
+    font-size: 0.8em
+
+h1, h2
+  +latofont(300)
+  cursor: default
+  font-variant: small-caps
+
+  span
+    margin: 0
+    +transition(margin 600ms)
+
+  &:hover
+    span
+      margin: 0 0.2em
+
+h1
+  +latofont(400)
+  font-size: 3em
+  margin: 1.2em 0 2em
+
+  @media (max-width: 60em)
+    font-size: 2em
+
+  @media (max-width: 40em)
+    font-size: 1.6em
+
+h2
+  font-size: 1.4em
+  margin: 1.2em 0 0.8em
+
+  @media (max-width: 60em)
+    font-size: 1.2em
+
+  @media (max-width: 40em)
+    font-size: 1.0em
+
+img
+  width: 100%
+  border: 4px solid white
+  margin-top: 1em
+  +transition(border 600ms ease-in-out)
+
+  &:hover
+    border: 4px solid #333
+
+footer
+  display: block
+  position: absolute
+  width: 100%
+  padding: 4em 0 2em
+  text-align: center
+  margin: 0 auto
+
+#image, #fields, #debug
+  max-width: 80%
+  margin: 0 auto
+
+  @media (min-width: 80em)
+    max-width: 60em

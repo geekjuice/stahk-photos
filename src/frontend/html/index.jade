@@ -1,0 +1,12 @@
+extends _main
+
+block title
+  title Stahk Photos
+
+block head
+  +stylesheet("index")
+  +stylesheet("vendor/prism")
+  script(data-main="/js/index", src="/js/vendor/require.js")
+
+block content
+  #StahkPhotos
