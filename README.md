@@ -15,7 +15,7 @@ Inspired by this [Medium][medium] article
 Recreated using [Mort][mort]
 
 ![img][img]
-_Images provided from this API_
+_Images provided by this API_
 
 [mort]: http://github.com/geekjuice/mort
 [cheerio]: http://github.com/cheeriojs/cheerio

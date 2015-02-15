@@ -11,6 +11,7 @@ ENDPOINTS = require('./api/endpoints')
 ENV_KEY = 'StahkPhotos-Env'
 
 STATIC_ROUTES =
+  '/integrate': 'integrate'
   '/': 'index'
 
 _route = (file) ->
@@ -34,10 +35,6 @@ module.exports = (app) ->
   app.use '/random/:debug?', (req, res) ->
     { debug } = req.params
     res.redirect("/#{_.sample(ENDPOINTS)}/random/#{debug or ''}")
-
-  ## Integrate test
-  app.use '/integrate', (req, res) ->
-    res.render('integrate')
 
   ## Static Routes
   for route, file of STATIC_ROUTES

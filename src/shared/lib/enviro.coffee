@@ -18,7 +18,7 @@ Enviro = (_) ->
           window?.localStorage?[key] ?
           @getCookie(key) ?
           KEYS.prod
-        ).toLowerCase()
+        ).toLowerCase?()
 
       isProd: _.memoize (key) ->
         @get(key) in KEYS.prod
