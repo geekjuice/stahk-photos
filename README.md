@@ -9,6 +9,9 @@ API created from scraping:
  -  [Getrefe][getrefe]
  -  [Jay Mantri][jaymantri]
  -  [Picography][picography]
+ -  [Startup Stock Photos][startupstockphotos]
+ -  [Life of Pix][lifeofpix]
+ -  [Pexels][pexels]
 
 Inspired by articles from:
   - [Medium][medium]
@@ -32,6 +35,9 @@ _Images provided by this API_
 [getrefe]: http://getrefe.tumblr.com
 [jaymantri]: http://jaymantri.com
 [picography]: http://picography.co
+[startupstockphotos]: http://startupstockphotos.com
+[lifeofpix]: http://lifeofpix.com
+[pexels]: http://pexels.co
 
 ## Endpoints
 
