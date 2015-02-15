@@ -14,4 +14,5 @@ module.exports = [
   'startupstockphotos'
   'lifeofpix'
   'pexels'
+  'superfamous'
 ]

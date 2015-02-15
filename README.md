@@ -12,6 +12,7 @@ API created from scraping:
  -  [Startup Stock Photos][startupstockphotos]
  -  [Life of Pix][lifeofpix]
  -  [Pexels][pexels]
+ -  [Superfamous][superfamous]
 
 Inspired by articles from:
   - [Medium][medium]
@@ -38,6 +39,7 @@ _Images provided by this API_
 [startupstockphotos]: http://startupstockphotos.com
 [lifeofpix]: http://lifeofpix.com
 [pexels]: http://pexels.co
+[superfamous]: http://superfamous.com
 
 ## Endpoints
 
@@ -74,6 +76,8 @@ __Startup Stock Photos:__ `/startupstockphotos/(random|\d+)?`
 __Life of Pix:__ `/lifeofpix/(random|\d+)?`
 
 __Pexels:__ `/pexels/(random|\d+)?`
+
+__Superfamous:__ `/superfamous/(random|\d+)?`
 
 
 ## Example response (From Unsplash root)
