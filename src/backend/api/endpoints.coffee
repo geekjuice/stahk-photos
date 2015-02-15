@@ -11,4 +11,5 @@ module.exports = [
   'getrefe'
   'jaymantri'
   'picography'
+  'startupstockphotos'
 ]

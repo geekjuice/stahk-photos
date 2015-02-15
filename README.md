@@ -10,7 +10,9 @@ API created from scraping:
  -  [Jay Mantri][jaymantri]
  -  [Picography][picography]
 
-Inspired by this [Medium][medium] article
+Inspired by articles from:
+  - [Medium][medium]
+  - [HubSpot][hubspot]
 
 Recreated using [Mort][mort]
 
@@ -20,6 +22,7 @@ _Images provided by this API_
 [mort]: http://github.com/geekjuice/mort
 [cheerio]: http://github.com/cheeriojs/cheerio
 [medium]: https://medium.com/p/62ae4bcbe01b
+[hubspot]: http://blog.hubspot.com/marketing/free-stock-photos
 [img]: http://stahkphotos.herokuapp.com/random
 [littlevisuals]: http://littlevisuals.co
 [unsplash]: http://unsplash.com
