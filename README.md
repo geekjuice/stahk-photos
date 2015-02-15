@@ -63,6 +63,12 @@ __Jay Mantri:__ `/jaymantri/(random|\d+)?`
 
 __Picography:__ `/picography/(random|\d+)?`
 
+__Startup Stock Photos:__ `/startupstockphotos/(random|\d+)?`
+
+__Life of Pix:__ `/lifeofpix/(random|\d+)?`
+
+__Pexels:__ `/pexels/(random|\d+)?`
+
 
 ## Example response (From Unsplash root)
 ```javascript
